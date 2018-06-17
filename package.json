@@ -1,0 +1,46 @@
+{
+    "name": "vscode-pug-template-literal",
+    "displayName": "Pug Template Literals",
+    "description": "Syntax highlighting for Pug in template literals",
+    "version": "0.1.0",
+    "publisher": "zokugun",
+    "homepage": "https://github.com/zokugun/vscode-pug-template-literal",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zokugun/vscode-pug-template-literal.git"
+	},
+	"bugs": {
+        "url": "https://github.com/zokugun/vscode-pug-template-literal/issues"
+    },
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "grammars": [
+            {
+                "injectTo": [
+                    "source.js",
+                    "source.js.jsx",
+                    "source.jsx",
+                    "source.ts",
+                    "source.tsx"
+                ],
+                "scopeName": "inline.pug-template",
+                "path": "./syntaxes/pug-template.json",
+                "embeddedLanguages": {
+                    "meta.embedded.block.pug": "jade"
+                }
+            }
+        ]
+    },
+	"keywords": [
+		"pug",
+        "template",
+        "javascript",
+        "typescript"
+	]
+}
