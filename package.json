@@ -2,7 +2,7 @@
     "name": "vscode-pug-template-literal",
     "displayName": "Pug Template Literals",
     "description": "Syntax highlighting for Pug in template literals",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "zokugun",
     "homepage": "https://github.com/zokugun/vscode-pug-template-literal",
 	"repository": {
@@ -17,7 +17,7 @@
         "vscode": "^1.23.0"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "contributes": {
         "grammars": [
