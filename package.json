@@ -2,8 +2,8 @@
     "name": "vscode-pug-template-literal",
     "displayName": "Pug Template Literals",
     "description": "Syntax highlighting for Pug (pugRender) in template literals",
-    "version": "0.1.0",
-    "publisher": "jervert",
+    "version": "0.2.0",
+    "publisher": "AntonioRodrguezRuiz",
     "homepage": "https://github.com/jervert/vscode-pugrender-template-literal",
 	"repository": {
 		"type": "git",
