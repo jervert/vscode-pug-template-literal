@@ -1,15 +1,15 @@
 {
-    "name": "vscode-pug-template-literal",
+    "name": "vscode-pugrender-template-literal",
     "displayName": "Pug Template Literals",
-    "description": "Syntax highlighting for Pug (pugRender) in template literals",
-    "version": "0.2.0",
+    "description": "Syntax highlighting for Pug (pugrender) in template literals",
+    "version": "0.3.8",
     "publisher": "AntonioRodrguezRuiz",
     "homepage": "https://github.com/jervert/vscode-pugrender-template-literal",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/jervert/vscode-pugrender-template-literal.git"
-	},
-	"bugs": {
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jervert/vscode-pugrender-template-literal.git"
+    },
+    "bugs": {
         "url": "https://github.com/jervert/vscode-pugrender-template-literal/issues"
     },
     "license": "MIT",
@@ -39,11 +39,11 @@
             }
         ]
     },
-	"keywords": [
-		"pug",
+    "keywords": [
+        "pug",
         "jade",
         "template",
         "javascript",
         "typescript"
-	]
+    ]
 }

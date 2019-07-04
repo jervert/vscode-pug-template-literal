@@ -4,7 +4,7 @@
   "patterns": [
     {
       "contentName": "meta.embedded.block.pug",
-      "begin": "(pugRender)(`)",
+      "begin": "(.?(pugRender))(`)",
       "beginCaptures": {
         "1": {
           "name": "entity.name.function.tagged-template.js"
